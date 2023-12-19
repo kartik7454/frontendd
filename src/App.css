@@ -1,0 +1,175 @@
+.container{display: flex;
+background-color: rgb(120, 120, 126);
+height: 100PX
+
+;}
+
+.item1{
+  
+  margin-left:3%;
+width: 300px;
+position: relative;
+bottom :0px}
+.item2{
+
+margin-left:60%}
+
+.item3{
+  
+  margin-left:2%;
+margin-right: 1%;}
+
+.starimg{width:400px;
+height:250px;
+object-fit: cover ;}
+
+.evt{background-color:#dedcdc;
+width: 470px;
+display: inline-table;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 50px;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;}
+
+.favpage{background-color: rgb(91, 96, 96);
+width: 700px;
+height:900px;
+position: fixed;
+top:50px;
+right:0px;
+z-index: 1;}
+.hidden{background-color: aqua;
+visibility: hidden;}
+.show{visibility: visible;
+background-color: rgb(166, 164, 161);}
+
+.addpage{width: 700px;
+  height:900px;
+  position: fixed;
+right:350px;
+bottom :-150px;
+z-index: 1;}
+
+
+.starpage{text-align: center;}
+
+
+.favpageimg{width:150px;
+
+border-style: solid;
+border-width: 1px ;   
+}
+
+.favepagetitle{display: inline;
+
+width:500px;
+text-align: center;
+     ;}
+
+.bhuuu{display: inline;}
+
+.favepage{display: flex;
+height:100px}
+.landingpage{background-color: #003153;
+height:700px;
+background-repeat: no-repeat;
+background-size:contain;
+background-position: bottom;
+height:700px;
+;
+}
+
+
+.addbutton{background-color: white;
+height:30px;
+width:100px;
+border-radius: 15px;
+text-transform: uppercase;
+font-weight:bolder;
+position:relative;
+top:25px}
+
+.favbutton{background-color: white;
+  height:30px;
+  width:100px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight:bolder;
+  position:relative;
+  top:25px}
+
+  .filterbtn{height:30px;
+  width:100px;
+  border-radius: 5px;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-weight:bolder;
+  position:relative;
+margin-top: 20px;
+margin-bottom:20px;
+margin-left: 10px;}
+
+
+  .filterdiv{text-align: center;}
+
+  .registerbtn{height:35px;
+  border-radius: 10px;
+border-width: 1px;
+width:100px  ;
+font-weight:bolder;
+text-transform: uppercase;
+position: relative;
+top:5px;
+right: 10px;
+ }
+
+ .favobtn{height:35px;
+  border-radius: 10px;
+border-width: 1px;
+width:100px  ;
+font-weight:bolder;
+text-transform: uppercase;
+position: relative;
+top:5px;
+left: 10px;}
+
+.favepage{  background-color: #dedcdc;
+margin-bottom: 5px;}
+
+
+.favpageimg{height:80px ;
+position: relative;
+top:8px;
+left:10px;  
+object-fit: cover;
+}
+
+
+
+.favdelbtn{ 
+height:25px;
+position:relative;
+top:30px}
+
+.favregisterbtn{position: relative;
+top:50px}
+
+.cross{
+position:absolute;
+top:10px;
+left:10px}
+
+#titleinput{height:25px;
+width:400px}
+
+#dicinput{
+  width:400px}
+#img{display: block;
+margin-bottom: 20px;}
+
+.addpage{padding-left: 50px;}
+
+
+.favourite{margin-bottom: 10px;}
