@@ -27,7 +27,7 @@ function Home() {
 
   useEffect( ()=>{
     const fetchWorkouts  = async ()=>{
-    const response = await fetch ('/events')
+    const response = await fetch ('https://jngfh.onrender.com/events')
     const json = await response.json()
     
     if(response.ok){
