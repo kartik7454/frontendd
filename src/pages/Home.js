@@ -41,7 +41,7 @@ function Home() {
 
     useEffect( ()=>{
       const fetchWorkouts  = async ()=>{
-      const response = await fetch ('/favevents')
+      const response = await fetch ('https://jngfh.onrender.com/favevents')
       const json = await response.json()
       
       if(response.ok){
@@ -59,7 +59,7 @@ function Home() {
       
       const events ={title,startd,endd,description,link,image,tags}
   
-      const response = await fetch('/events',{
+      const response = await fetch('https://jngfh.onrender.com/events',{
           method:"POST",
           body :JSON.stringify(events),//convert to json from object
           headers:{
