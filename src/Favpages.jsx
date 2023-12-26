@@ -5,7 +5,7 @@ import './App.css';
 function Favpage (props) {
   
  const deleteevent = async()=>{
-  const response = await fetch ('/favEvents/' + props.id,{
+  const response = await fetch ('https://jngfh.onrender.com/favEvents/' + props.id,{
     method:'DELETE'
 })
 
