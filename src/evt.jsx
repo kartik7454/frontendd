@@ -14,7 +14,7 @@ function Evt(props) {
 
     const events ={title,link,image}
   
-      const response = await fetch('/favEvents',{
+      const response = await fetch('https://jngfh.onrender.com/favEvents',{
           method:"POST",
           body :JSON.stringify(events),//convert to json from object
           headers:{
